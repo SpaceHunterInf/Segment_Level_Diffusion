@@ -64,9 +64,6 @@ export WANDB_PROJECT="segment_level_diffusion"
 ├── model/                 # Neural network architectures
 │   ├── diffusion_transformer.py  # Main diffusion transformer
 │   └── x_transformer.py   # Enhanced transformer implementation
-├── evaluation/            # Evaluation scripts and metrics
-│   ├── evaluation.py      # Evaluation utilities
-│   └── *.ipynb           # Analysis notebooks
 └── utils/                 # General utilities
     ├── simcse.py          # SimCSE for contrastive learning
     └── torch_utils.py     # PyTorch utilities
