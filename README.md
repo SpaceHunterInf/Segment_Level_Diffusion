@@ -84,7 +84,7 @@ To start training, you should first train the latent encoder and decoder compone
 For detailed documentation of all available arguments, please refer to `train_latent_model.py`.
 
 ### Step 2: Train Diffusion Model
-After the latent encoder and decoder components are trained, you should train the segment-level diffusion language model using `train_text_diffusion.py`. This script also contains detailed argument documentation. An example run is provided in `train_diffusion.sh`.
+After the latent encoder and decoder components are trained, you should train the segment-level diffusion language model using `train_segment_diffusion.py`. This script also contains detailed argument documentation. An example run is provided in `train_diffusion.sh`.
 
 ## Noise Implementation
 In `noiser.py`, we include both contrastive and adversarial noise implementations. For adversarial noise specifically we implemented the following:
@@ -93,7 +93,6 @@ In `noiser.py`, we include both contrastive and adversarial noise implementation
 
 ## Inference
 Use `inference.sh` for model inference.
-
 
 ## 📋 Citation
 

@@ -1,4 +1,4 @@
-WANDB_MODE=offline python train_text_diffusion.py --dataset_name full_roc_utt_jsonl --learning_rate 2e-4 \
+WANDB_MODE=offline python train_segment_diffusion.py --dataset_name full_roc_utt_jsonl --learning_rate 2e-4 \
 --num_train_steps 100000 --train_batch_size 16 --eval_batch_size 16 --tx_dim 768 --tx_depth 12 --objective pred_v \
 --enc_dec_model google/flan-t5-base --num_samples 32 --self_condition --scale_shift --loss_type l2 \
 --train_schedule cosine --wandb_name roc-flan-t5_noised-decoding_loss-post_ae --sampling_timesteps 250 \

@@ -5,7 +5,7 @@ This document outlines the security measures taken to prepare this codebase for 
 ## ✅ Issues Fixed
 
 ### 1. API Keys Removed
-- **Files affected**: `train_text_diffusion.py`, `train_latent_model.py`
+- **Files affected**: `train_segment_diffusion.py`, `train_latent_model.py`
 - **Issue**: Hardcoded WandB API keys
 - **Fix**: Removed hardcoded API keys, now reads from environment variables
 - **Action required**: Set `WANDB_API_KEY` environment variable before running
