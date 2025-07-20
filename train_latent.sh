@@ -7,4 +7,4 @@ WANDB_MODE=offline python train_latent_model.py --train_path datasets/example_ut
 --noise_type adv --cse --cse_loss_weight 0.2 \
 --wandb_name ecqa_latent_64_64_cnt \
 --early_stopping_patience 5 \
---save_dir /home/xz479/rds/hpc-work/Segment_Level_Diffusion/saved_latent_models/test \
+--save_dir your_save_path \
